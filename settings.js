@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~1j9iHBZJ#NLf8oB9Pxk-V7K2nh-yFTjgyeTNFI1nl290_WHHpfZ4",
+SESSION_ID: process.env.SESSION_ID || "malvin~F2cVCLyT#HKhBiMJag8yzBMI03bLw77Mc4pOmmfaehv3xvevp0XE",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -40,7 +40,7 @@ LINK_WHITELIST: "youtube.com,github.com",
        ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
 
-      ANTI_LINK: process.env.ANTI_LINK || "true",
+      ANTI_LINK: process.env.ANTI_LINK || "false",
 // make anti link true,false for groups 
 
       MENTION_REPLY: process.env.MENTION_REPLY || "true",
@@ -109,7 +109,7 @@ OWNER_NAME: process.env.OWNER_NAME || "REAL SUTTA",
    READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 
-     DEV: process.env.DEV || "263780166288",
+     DEV: process.env.DEV || "0726130869",
 //replace with your whatsapp number    
     
     ANTI_VV: process.env.ANTI_VV || "false",
