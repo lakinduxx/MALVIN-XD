@@ -91,7 +91,7 @@ OWNER_NAME: process.env.OWNER_NAME || "REAL SUTTA",
             AUTO_VOICE: process.env.AUTO_VOICE || "true",
 // make true for send automatic voices
 
-        AUTO_STICKER: process.env.AUTO_STICKER || "true",
+        AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 
               AUTO_REPLY: process.env.AUTO_REPLY || "false",
